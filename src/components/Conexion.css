@@ -1,0 +1,170 @@
+.background-image {
+    background-image: url('src/assets/cuerno-de-alce.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    min-height: 100vh; /* Asegura que la imagen de fondo ocupe toda la pantalla */
+}
+.pacha-header {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el título */
+    align-items: center; /* Centra verticalmente el título */
+    width: 100%; /* Asegura que el encabezado ocupe todo el ancho */
+    background-color: #4CAF50; /* Verde */
+    color: black; /* Texto negro para contrastar */
+    /*padding: 0px; Añade espacio alrededor del texto */
+    padding-left: 90px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    letter-spacing: 120px;
+    word-spacing: 1.2px;
+    font-weight: 800;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.card-custom {
+    background-color: rgb(0, 120, 48, 0.5); /* Fondo de la tarjeta */
+    color: #000; /* Texto oscuro para mejor legibilidad */
+    font-family: Impact, Charcoal, sans-serif; /* Cambiar la tipografía */
+    font-size: 20px;
+    border-radius: 30px; /* Añade bordes redondeados */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 1); /* Añade sombra */
+}
+
+.card-custom .card-header {
+    background-color: rgba(129, 255, 3, 0.825); /* Fondo del encabezado de la tarjeta */
+    color: rgb(8, 7, 7); /* Texto blanco para resaltar */
+    font-family: Impact, Charcoal, sans-serif; /* Cambia la tipografía */
+    padding: 15px; /* Ajusta el espacio alrededor del encabezado de la tarjeta */
+    border-top-left-radius: 10px; /* Añade bordes redondeados al encabezado */
+    border-top-right-radius: 10px; /* Añade bordes redondeados al encabezado */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-custom .card-body {
+    padding: 20px; /* Ajusta el espacio alrededor del cuerpo de la tarjeta */
+}
+
+.card-custom .card-footer {
+    background-color: #4CAF50; /* Fondo del pie de la tarjeta */
+    color: white; /* Texto blanco para resaltar */
+    font-family: 'Montserrat', sans-serif; /* Cambia la tipografía */
+    padding: 15px; /* Ajusta el espacio alrededor del pie de la tarjeta */
+    border-bottom-left-radius: 10px; /* Añade bordes redondeados al pie */
+    border-bottom-right-radius: 10px; /* Añade bordes redondeados al pie */
+}
+
+/* Estilos para los botones */
+button {
+    border: none; /* Elimina el borde */
+    border-radius: 25px; /* Añade bordes redondeados */
+    padding: 20px 20px; /* Ajusta el espaciado interno */
+    font-size: 1.2em; /* Tamaño del texto */
+    font-weight: bold; /* Peso de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave */
+}
+
+/* Estilos para el botón primario */
+button.primary {
+    background-color: #1fd7d1; /* Verde */
+    color: black; /* Texto blanco */
+}
+
+/* Estilos para el botón secundario */
+button.secondary {
+    background-color: #646cff; /* Azul */
+    color: white; /* Texto blanco */
+}
+
+/* Estilos para el botón de peligro */
+button.danger {
+    background-color: #ff4d4d; /* Rojo */
+    color: black; /* Texto blanco */
+}
+
+/* Estilos para el botón de éxito */
+button.success {
+    background-color: #00cc66; /* Verde claro */
+    color: white; /* Texto blanco */
+}
+
+/* Estilos para el botón de advertencia */
+button.warning {
+    background-color: #ffd700; /* Amarillo */
+    color: black; /* Texto blanco */
+}
+
+/* Estilos para el botón de información */
+button.info {
+    background-color: #3399ff; /* Azul claro */
+    color: white; /* Texto blanco */
+}
+
+/* Estilos para el botón de enlace */
+button.link {
+    background-color: transparent; /* Fondo transparente */
+    color: #646cff; /* Texto azul */
+    text-decoration: underline; /* Subraya el texto */
+}
+.download-app {
+    background-color: rgb(152, 221, 180); /* Color de fondo */
+    border: 3px solid #308b32; /* Borde sólido verde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px; /* Margen superior */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+.download-app p {
+    font-size: 24px; /* Tamaño de fuente */
+    font-family: Impact, Charcoal, sans-serif;
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.download-app a {
+    color: #137ef0; /* Color del enlace */
+    font-family: Impact, Charcoal, sans-serif;
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 25px;
+}
+
+.download-app a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+.sensor-section {
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.sensor-section .btn {
+    padding: 10px 20px; /* Ajusta el relleno del botón según sea necesario */
+    font-size: 18px; /* Ajusta el tamaño de la fuente del botón según sea necesario */
+    border-radius: 8px; /* Ajusta el radio de borde del botón según sea necesario */
+    background-color: rgba(245, 237, 11, 0.871); /* Cambia el color de fondo del botón */
+    color: rgb(255, 255, 255); /* Cambia el color del texto del botón */
+    font-size: 20px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: bold;
+    border-color: #000;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 1);
+    text-decoration: none; /* Elimina la decoración del texto del botón */
+    transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo del botón */
+}
+
+.sensor-section .btn:hover {
+    background-color: black; /* Cambia el color de fondo del botón al pasar el mouse */
+}
+.extra-option {
+    /*margin-bottom: 10px; Ajusta el espacio entre el texto y el botón */
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 25px; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-weight: bold; /* Hace que el texto sea más audaz */
+    color: #fff9f9; /* Cambia el color del texto según sea necesario */
+    border-color: #000;
+}
