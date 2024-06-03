@@ -1,12 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const Sensor = () => {
   return (
     <div>
-      <h2>Aquí será medidas</h2>
+      <h1>HOLa</h1>
     </div>
-  );
-};
+  )
+}
 
-export default Sensor;
- 
+export default Sensor
